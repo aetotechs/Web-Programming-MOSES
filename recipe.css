@@ -37,11 +37,32 @@ letter-spacing: 0.25px;
     text-align: center;
     position: absolute;
 }
-.tsb,#tbsp{
+.tsb,#tbsp1,#tbsp2,#tbsp3,#tbsp4{
     text-decoration: underline;
 }
 
-#tbsp:hover + .wd1{ 
+#tbsp1:hover + .wd1{ 
+    display: block;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+}
+#tbsp2:hover + .wd1{ 
+    display: block;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+}
+#tbsp3:hover + .wd1{ 
+    display: block;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+}
+#tbsp4:hover + .wd1{ 
     display: block;
     background-color: brown;
     color: #fff;
@@ -54,7 +75,7 @@ letter-spacing: 0.25px;
 .pie::after{
 content: "pie!";
 }
-#bold{
+#bold1,#bold2,#bold3,#bold4,#bold5{
   font-weight: bold;  
 }
 #use p{
